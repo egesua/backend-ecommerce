@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="converter updated." />
+    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="exception handling completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/CardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/OrderedProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/UserRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708364866648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="exception handling completed">
+      <option name="closed" value="true" />
+      <created>1708364959525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708364959525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,7 +186,8 @@
     <MESSAGE value="dependency and secConfig updates" />
     <MESSAGE value="controller layer completed..." />
     <MESSAGE value="converter updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="converter updated." />
+    <MESSAGE value="exception handling completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
