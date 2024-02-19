@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="entities added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/UserRequest.java" afterDir="false" />
+    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="requests created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/AddressResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/CategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/ProductsResponseForOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/RoleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/cartResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,13 +126,22 @@
       <option name="project" value="LOCAL" />
       <updated>1708362657480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="requests created">
+      <option name="closed" value="true" />
+      <created>1708363027644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708363027644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring initialized" />
     <MESSAGE value="entities added." />
-    <option name="LAST_COMMIT_MESSAGE" value="entities added." />
+    <MESSAGE value="requests created" />
+    <option name="LAST_COMMIT_MESSAGE" value="requests created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
