@@ -1,6 +1,6 @@
 package com.egesua.ecommerce.entity;
 
-import com.workintech.ecommerce.ecommerce.dto.response.cartResponse;
+import com.egesua.ecommerce.dto.response.cartResponse;
 import jakarta.persistence.*;
 
 import lombok.Data;
