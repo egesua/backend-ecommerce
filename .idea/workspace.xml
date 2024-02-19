@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="exception handling completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/OrderedProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/repository/UserRepository.java" afterDir="false" />
+    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="repository layer added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/CardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/OrderedProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/OrderedProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/utilandvalidations/GeneralValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708364959525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="repository layer added">
+      <option name="closed" value="true" />
+      <created>1708365286710</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708365286710</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +206,8 @@
     <MESSAGE value="controller layer completed..." />
     <MESSAGE value="converter updated." />
     <MESSAGE value="exception handling completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception handling completed" />
+    <MESSAGE value="repository layer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="repository layer added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
