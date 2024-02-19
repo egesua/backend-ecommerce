@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="requests created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/AddressResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/CategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/ProductsResponseForOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/RoleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/dto/response/cartResponse.java" afterDir="false" />
+    <list default="true" id="2caae8d0-79ce-4c61-8fa5-321307ea7168" name="Changes" comment="responses completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egesua/ecommerce/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/egesua/Desktop/Work/backend-ecommerce&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/egesua/Desktop/backend-ecommerce/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.backend [clean].executor": "Run",
+    "Maven.backend [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/egesua/Desktop/Work/backend-ecommerce",
+    "onboarding.tips.debug.path": "C:/Users/egesua/Desktop/backend-ecommerce/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\egesua\Desktop\backend-ecommerce" />
@@ -134,14 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708363027644</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="responses completed">
+      <option name="closed" value="true" />
+      <created>1708363264311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708363264311</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring initialized" />
     <MESSAGE value="entities added." />
     <MESSAGE value="requests created" />
-    <option name="LAST_COMMIT_MESSAGE" value="requests created" />
+    <MESSAGE value="responses completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="responses completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
